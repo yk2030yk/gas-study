@@ -1,0 +1,17 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "semi": false,
+        "tabWidth": 2
+      }
+    ],
+    "interface-name": [false],
+    "max-classes-per-file": false
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"]
+}
